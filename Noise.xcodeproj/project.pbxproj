@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -186,6 +186,8 @@
 
 /* Begin PBXFileReference section */
 		27C5C398253726BD0059758E /* create-xcframework.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "create-xcframework.sh"; sourceTree = "<group>"; };
+		A9CD17652758B7DF0005833B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		A9CD17662758B8A20005833B /* Noise.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Noise.xcframework; sourceTree = "<group>"; };
 		D704465F2179D23B00A91DA0 /* NoiseTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = NoiseTests.xcconfig; sourceTree = "<group>"; };
 		D70446602179D37300A91DA0 /* EchoTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = EchoTests.xcconfig; sourceTree = "<group>"; };
 		D70446642179D49D00A91DA0 /* EchoTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EchoTests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -571,6 +573,8 @@
 		D77C6E0B2142E09100A3E0EA = {
 			isa = PBXGroup;
 			children = (
+				A9CD17662758B8A20005833B /* Noise.xcframework */,
+				A9CD17652758B7DF0005833B /* Package.swift */,
 				D77C6E302142E1DA00A3E0EA /* Config */,
 				27C5C397253726BD0059758E /* Scripts */,
 				D77C6FD62142EF3D00A3E0EA /* Noise-C */,
