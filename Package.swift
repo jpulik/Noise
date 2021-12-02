@@ -26,7 +26,7 @@ let package = Package(
         .binaryTarget(
             name: "Noise",
             path: "./Noise.xcframework",
-            dependencies: ["OpenSSL"]
+//            dependencies: ["OpenSSL"] --> this is currently not supported by SPM (https://bugs.swift.org/browse/SR-14245)
         )
     ]
 )
