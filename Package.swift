@@ -25,7 +25,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Noise",
-            path: "./Noise.xcframework"
+            path: "./Noise.xcframework",
+            dependencies: ["OpenSSL"]
         )
     ]
 )
