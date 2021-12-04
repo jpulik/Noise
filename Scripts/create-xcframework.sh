@@ -24,7 +24,3 @@ $XCBUILD -create-xcframework \
 
 
 find "$PROJ_DIR/Noise.xcframework" -type d -name Frameworks  -exec rm -rf {} \;
-
-
-
-
