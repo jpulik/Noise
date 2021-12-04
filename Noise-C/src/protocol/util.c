@@ -58,8 +58,6 @@ void noise_init_helper(void)
         return;
 #endif
 #if USE_OPENSSL
-    OpenSSL_add_all_algorithms();
-    ERR_load_crypto_strings();
 #endif
 }
 
@@ -90,7 +88,6 @@ int noise_init(void)
     if (pthread_once(&noise_is_initialized, noise_init_helper) != 0)
         return NOISE_ERROR_SYSTEM;
 #else
-    noise_init_helper();
 #endif
 
     return NOISE_ERROR_NONE;
