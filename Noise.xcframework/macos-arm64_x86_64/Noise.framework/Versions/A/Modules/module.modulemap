@@ -1,6 +1,0 @@
-framework module Noise {
-  umbrella header "Noise.h"
-
-  export *
-  module * { export * }
-}
